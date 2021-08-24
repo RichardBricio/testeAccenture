@@ -1,6 +1,6 @@
-Feature: Page Tricentis - Validar preenchimento e envio do formulario.
+Feature: Page Tricentis
 
-	Scenario: Preencher campos
+	Scenario: Validar preenchimento e envio do formulario.
 		Given Que eu esteja na pagina Tricentis
 		When Preencho os campos da aba Enter Vehicle Data
 		When Preencho os campos da aba Enter Enter Insurant Data
