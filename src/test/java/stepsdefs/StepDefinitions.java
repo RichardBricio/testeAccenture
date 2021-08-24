@@ -41,11 +41,6 @@ public class StepDefinitions {
             driver.manage().window().maximize();
         }
 
-        @Given("^Preencho os campos necessarios e envio$")
-        public void forneco_as_credenciais_validas () throws Exception {
-
-        }
-
         @When("^Preencho os campos da aba (Enter Vehicle Data|Enter Enter Insurant Data|Enter Product Data|Select Price Option|Send Quote)$")
         public void preencho_campos_da_aba_em_questao(String aba) throws Exception {
             SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
